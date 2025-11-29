@@ -19,6 +19,10 @@
 8. Populate database `python populate_db.py`
 9. Run Streamlit app `streamlit run streamlit_app.py`
 
+## Live Demo
+
+👉 Try the live Streamlit app here: **[Live Demo Link](https://teja4848-streamlit-app-streamlit-app-3f6rsg.streamlit.app/)**
+
 
 ## How create hashed password
 
@@ -27,4 +31,5 @@ import bcrypt
 password = "some_strong_password".encode('utf-8')
 hashed = bcrypt.hashpw(password, bcrypt.gensalt())
 print(hashed.decode())
+
 ```
